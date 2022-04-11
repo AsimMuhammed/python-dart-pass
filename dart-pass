@@ -1,0 +1,6 @@
+في الكود مكتوب const  وهذا معناه ثابت ويجب تغييره الى var  حتى يكون الكود صحيح , هكذا :
+
+main() {
+  var hour = DateTime.now().hour;
+  print(hour);
+}
