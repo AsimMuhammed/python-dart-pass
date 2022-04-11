@@ -1,6 +1,21 @@
+q1
+
 في الكود مكتوب const  وهذا معناه ثابت ويجب تغييره الى var  حتى يكون الكود صحيح , هكذا :
 
 main() {
   var hour = DateTime.now().hour;
   print(hour);
 }
+
+  q2
+  
+  Abstract  Class  Animale 
+{
+    Var animalList = [ 'dog' , 'cat' , 'cow' ];
+   abstract Void animalListprinter(){
+           For(var animal in animalList){
+              Print(animal);
+                }
+        }
+}
+
